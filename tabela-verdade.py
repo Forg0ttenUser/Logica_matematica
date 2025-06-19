@@ -1,3 +1,18 @@
+#Função:
+def exibe_tabela_verdade():
+    #Caso tenha problemas com o escopo, passe as globais como args.
+    print("\n"+"-------"*num_proposicoes)
+    for index in range(num_linhas+1):
+            for lista in tabela_verdade:
+                if index == 0:
+                    print(f'|  {lista[index]} |', end="")
+                else:
+                    print(f'|  {lista[index]}  |', end="")
+            print()
+            print("-------"*num_proposicoes, end="")    
+            print()
+            
+
 #Tratamento de erro/exceção:
 try:
     num_proposicoes = int(input("""Insira o número de proposições
@@ -9,7 +24,7 @@ else:
     if num_proposicoes <= 0:
         print("\n\033[0;31mErro:\033[m n \u2264 0. Por favor, insira um \033[33mnúmero \u2265 1\033[m.")
     else:
-        #Variavéis:
+        #Variavéis globais:
         valores_verdade = ('F', 'V')
         tabela_verdade = []
         valor_posicional_da_tupla = 1
@@ -37,13 +52,4 @@ else:
             expoente+=1; potencia_de_2 = base**expoente
 
         #Exibição da matriz tabela-verdade de n proposições:
-        print("\n"+"-------"*num_proposicoes)
-        for index in range(num_linhas+1):
-            for lista in tabela_verdade:
-                if index == 0:
-                    print(f'|  {lista[index]} |', end="")
-                else:
-                    print(f'|  {lista[index]}  |', end="")
-            print()
-            print("-------"*num_proposicoes, end="")    
-            print()
+        exibe_tabela_verdade()
