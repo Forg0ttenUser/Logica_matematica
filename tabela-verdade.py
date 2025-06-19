@@ -1,7 +1,7 @@
 #Tratamento de erro/exceção:
 try:
     num_proposicoes = int(input("""Insira o número de proposições
-    (Lembre-se: o número pertence ao conjunto dos números naturais e é maior ou igual a 1): """))
+    (Lembre-se: n \u2208 \u2115 \u22C0 n \u2265 1 ): """))
 except ValueError:
     print(f"\nErro: entrada não é um número natural. Por favor, redigite o número baseado nas condições de inserção.")
 
