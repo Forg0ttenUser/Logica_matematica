@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela-Verdade</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h1>Tb-verdade</h1>
+    
+    <table>
+        <thead>
+            <tr>
+            {%for key in var%}
+                <th>{{key}}</th>
+            {%endfor%}
+            </tr>
+        </thead>
+        <tbody>
+            {%for index in range(0, linha)%}
+            <tr>
+                {%for lista in var.values()%}
+                <td>{{lista[index]}}</td>
+                {%endfor%}
+            </tr>
+            {%endfor%}
+        </tbody>
+    </table>
+</body>
+</html>
