@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVA: Simulador</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    {%block css_especifico%}{%endblock%}
+</head>
+<body>
+    <header>
+        <h1>OVA: Simulador de Tabelas-Verdade</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('pagina_apresentacao') }}">Vá para a Apresentação</a></li>
+                <li><a href="{{ url_for('pagina_fundamentacao') }}">Vá para a Fundamentação</a></li>
+                <li><a href="{{ url_for('pagina_tabela') }}">Vá para o gerador de tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    {%block content%}
+    {%endblock%}
+    </main>
+    <footer>
+        <p>Copyright 2025 © - Lucas das Chagas de Souza, Guilherme da Silva Mariano e Daniel Ferreira Pereira da Silva</p>
+    </footer>
+</body>
+</html>
