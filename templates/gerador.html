@@ -1,14 +1,22 @@
 {% extends "base.html" %}
 
+{%block css_especifico%}
+<link rel="stylesheet" href="{{url_for('static', filename='table.css')}}">
+{%endblock%}
+
 {%block content%}
+    <h2>Tabela-verdade</h2>
 
-    <h1>Tb-verdade</h1>
     <form method="post">
-        <label>N° de proposições: <input type="number"  min="1" name="tabela"></label>
+        <label>Número de proposições (maior ou igual a 1):
+        <input type="number"  min="1" name="tabela">
+        </label>
         <button >Gerar</button>
-
     </form>
-    {%if exibicao_tabela == True%}
+    
+    {%if erro == True%}
+    <p class="mensagem_erro">Erro! Por favor, insira um número.</p>
+    {%elif exibicao_tabela == True%}
     <table>
         <thead>
             <tr>
