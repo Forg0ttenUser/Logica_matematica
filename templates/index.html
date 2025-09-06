@@ -1,31 +1,31 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela-Verdade</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
-</head>
-<body>
+{% extends "base.html" %}
+
+{%block content%}
+
     <h1>Tb-verdade</h1>
-    
+    <form method="post">
+        <label>N° de proposições: <input type="number"  min="1" name="tabela"></label>
+        <button >Gerar</button>
+
+    </form>
+    {%if exibicao_tabela == True%}
     <table>
         <thead>
             <tr>
-            {%for key in var%}
+            {%for key in tabela%}
                 <th>{{key}}</th>
             {%endfor%}
             </tr>
         </thead>
         <tbody>
-            {%for index in range(0, linha)%}
+            {%for index in range(0, num_linhas)%}
             <tr>
-                {%for lista in var.values()%}
+                {%for lista in tabela.values()%}
                 <td>{{lista[index]}}</td>
                 {%endfor%}
             </tr>
             {%endfor%}
         </tbody>
     </table>
-</body>
-</html>
+    {%endif%}
+{%endblock%}
