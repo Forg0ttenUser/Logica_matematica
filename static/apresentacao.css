@@ -1,0 +1,31 @@
+/* Estilização da lista ordenada da apresentação, a fim de aplicar um destaque à numeração*/
+
+ol {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 0;
+}
+
+ol li {
+    counter-increment: item;
+    margin: 1rem 0;
+    position: relative;
+    padding-left: 3rem;
+}
+
+ol li::before {
+    content: counter(item);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #f59e0b;
+    color: #f59e0b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

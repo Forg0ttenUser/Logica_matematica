@@ -21,7 +21,7 @@ def pagina_tabela():
         if  request.form.get("tabela").isnumeric():
             retorno_funcao_gerar = gerar_tabela(int(request.form.get("tabela")))
             controlador_exibicional  = True
-            return render_template("gerador.html", tabela = retorno_funcao_gerar[0], num_linhas = retorno_funcao_gerar[1], exibicao_tabela = controlador_exibicional, erro = mensagem_erro)
+            return render_template("gerador.html", tabela = retorno_funcao_gerar[0], num_linhas = retorno_funcao_gerar[1], exibicao_tabela = controlador_exibicional, erro = mensagem_erro, size = len )
         mensagem_erro = True
         return render_template("gerador.html", exibicao_tabela = controlador_exibicional, erro = mensagem_erro)
     return render_template("gerador.html", exibicao_tabela = controlador_exibicional, erro = mensagem_erro)

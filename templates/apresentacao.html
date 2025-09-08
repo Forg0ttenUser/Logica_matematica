@@ -1,5 +1,61 @@
 {% extends "base.html" %}
+
+ {%block css_especifico%}
+ <link rel="stylesheet" href="{{url_for('static', filename='apresentacao.css')}}">
+ {%endblock%}
+
 {%block content%}
-<h2>Bem-vindo(a) à apresentação de Deulógica</h2>
-<p>Deulógica é um simulador de tabelas-verdade para o cálculo proposicional, também conhecido como lógica proposicional.</p>
+<section class="apresentacao">
+    <h2>Bem-vindo(a) à apresentação de Deulógica:</h2>
+    <p><strong>Deulógica</strong> é um simulador de tabelas-verdade para o cálculo proposicional, também conhecido como lógica proposicional.</p>
+    <p>Abaixo há alguns pontos importantes a considerar sobre o OVA:</p>
+
+    <ol>
+        <li>
+            <p>
+                O OVA se estrutura em 3 páginas: Apresentação (esta página), Fundamentação e Gerador.
+            </p>
+            <p>
+                A apresentação contém a introdução ao OVA <strong>Deulógica</strong> e as suas Instruções de uso, enquanto a Fundamentação contém
+                a contextualização sobre o assunto do OVA, que é a lógica proposicional.
+            </p>
+            <p>
+                Finalmente, o gerador é a página para a geração propriamente dita das tabelas-verdade.
+            </p>
+        </li>
+        <li>
+            <p>
+                A página do gerador contém, além do topo e do rodapé desta página, um título, uma caixa com a expressão "Número de proposições (maior ou igual a 1)",
+                um campo de entrada númerica, com uma seta para cima, e a outra, para baixo, e um botão escrito "Gerar".
+
+            </p>
+        </li>
+    </ol>
+</section>
+
+<section class="instrucoes">
+    <h2>Instruções de uso do Gerador de Tabelas-Verdade:</h2>
+    <ol>
+        <li>
+            <p>
+                Para selecionar o campo de entrada do número de proposições, mova o cursor do mouse até o campo de entrada e clique nele com o botão esquerdo do mouse (caso seja um notebook,
+            utilize o botão esquerdo do touchpad), de modo que o campo adquira uma pequena borda laranja. Alternativamente, utilize a tecla "TAB" sucessivas vezes
+            até que a  borda da entrada torne-se laranja.
+            </p>
+            <p>Uma outra maneira de selecionar a entrada é posicionar o cursor do mouse sobre a expressão "Número de proposições (maior ou igual a 1)".</p>
+        </li>
+        <li>
+            <p>
+                Para inserir o número de proposições, com o campo de entrada já selecionado, utilize as setas laterais. A senta de sentido para cima aumenta o número de
+                uma em uma unidade, e a seta de sentido para baixo, diminui o número de uma em uma unidade. Alternativamente, utilize as teclas númericas do teclado.
+            </p>
+        </li>
+        <li>
+            <p>
+                Por fim, para gerar a tabela-verdade, posicione o mouse sobre o botão azul escrito "Gerar" e clique com o botão esquerdo do mouse.
+            </p>
+        </li>
+    </ol>
+
+</section>
 {%endblock%}

@@ -16,7 +16,7 @@ header {
 }
 
 header h1 {
-    color: #D19A66;
+    color: #f59e0b;
     font-size: 1.6rem;
     margin: 0 0 0.8rem 0;
 }
@@ -87,4 +87,9 @@ footer p {
     width: 100%;
     text-align: center;
     color: #AAA;
+}
+
+strong {
+    color: #f59e0b;
+    font-weight: bold;
 }

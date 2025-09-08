@@ -5,7 +5,7 @@
 {%endblock%}
 
 {%block content%}
-    <h2>Tabela-verdade</h2>
+    <h2><strong>Deulógica</strong>: tabelas-verdade</h2>
 
     <form method="post">
         <label>Número de proposições (maior ou igual a 1):
@@ -17,6 +17,9 @@
     {%if erro == True%}
     <p class="mensagem_erro">Erro! Por favor, insira um número.</p>
     {%elif exibicao_tabela == True%}
+    
+    <p>Saída: uma tabela-verdade de {{num_linhas}} linhas {{size(tabela)}} proposição(ões). Note que números diferentes inseridos retorna tabelas distintas.</p>
+
     <table>
         <thead>
             <tr>
