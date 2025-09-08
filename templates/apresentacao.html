@@ -8,7 +8,7 @@
 <section class="apresentacao">
     <h2>Bem-vindo(a) à apresentação de Deulógica:</h2>
     <p><strong>Deulógica</strong> é um simulador de tabelas-verdade para o cálculo proposicional, também conhecido como lógica proposicional.</p>
-    <p>Abaixo há alguns pontos importantes a considerar sobre o OVA:</p>
+    <p>Abaixo há alguns pontos gerais importantes a considerar sobre o OVA:</p>
 
     <ol>
         <li>
@@ -25,7 +25,8 @@
         </li>
         <li>
             <p>
-                A página do gerador contém, além do topo e do rodapé desta página, um título, uma caixa com a expressão "Número de proposições (maior ou igual a 1)",
+                A página do gerador contém, além do topo e do rodapé desta página corrente, um título e um mini compartimento que incorpora
+                a expressão "Número de proposições (maior ou igual a 1)",
                 um campo de entrada númerica, com uma seta para cima, e a outra, para baixo, e um botão escrito "Gerar".
 
             </p>
@@ -42,20 +43,44 @@
             utilize o botão esquerdo do touchpad), de modo que o campo adquira uma pequena borda laranja. Alternativamente, utilize a tecla "TAB" sucessivas vezes
             até que a  borda da entrada torne-se laranja.
             </p>
-            <p>Uma outra maneira de selecionar a entrada é posicionar o cursor do mouse sobre a expressão "Número de proposições (maior ou igual a 1)".</p>
+            <p>Uma outra maneira de selecionar a entrada é posicionar o cursor do mouse sobre a expressão "Número de proposições (maior ou igual a 1)" e clicar nela.</p>
         </li>
         <li>
             <p>
-                Para inserir o número de proposições, com o campo de entrada já selecionado, utilize as setas laterais. A senta de sentido para cima aumenta o número de
-                uma em uma unidade, e a seta de sentido para baixo, diminui o número de uma em uma unidade. Alternativamente, utilize as teclas númericas do teclado.
+                Para inserir o número de proposições, com o campo de entrada já selecionado, utilize as setas laterais presentes no campo, clicando em alguma delas com mouse.
+                A seta de sentido para cima aumenta o número de
+                uma em uma unidade, e a seta de sentido para baixo diminui o número de uma em uma unidade. Alternativamente, utilize as teclas númericas do teclado.
             </p>
+            <p>Uma outra maneira de inserir o número de proposições é clicar com o mouse diretamente em alguma das setas.</p>
         </li>
         <li>
             <p>
-                Por fim, para gerar a tabela-verdade, posicione o mouse sobre o botão azul escrito "Gerar" e clique com o botão esquerdo do mouse.
+                Por fim, para gerar a tabela-verdade, posicione o mouse sobre o botão azul escrito "Gerar" e clique com o botão esquerdo do mouse. Alternativamente, utilize a tecla "TAB" até que
+                o botão Gerar seja selecionado com uma borda esbranquiçada e tecle "Enter".
             </p>
         </li>
     </ol>
+</section>
 
+<section class="observacoes">
+    <h2>Algumas observações importantes sobre o gerador:</h2>
+    <ul>
+        <li><p>O número mínimo de proposições é 1. Com base nisso, ao utilizar a inserção diretamente por uma das setas, o número sempre inicializará em 1.</p></li>
+        <li><p>Caso o usuário insira um valor que não atenda a condição exposta no item anterior, ou, ainda não insira valor algum, mensagens de erro serão geradas, a fim de orientar o utilizador.</p></li>
+        <li>
+            <p>
+                O número de linhas da tabela, como é explicado na página de Fundamentação, é igual ao número de combinações lógicas envolvendo as proposições. Esse número
+                é obtido pela expressão algébrica 2<sup>n</sup>, sendo <strong>n</strong> o número de proposições. Ou seja, o número de linhas é de crescimento exponencial.
+                Portanto, ao aumentar o número de proposições (mesmo que pouco), o número de linhas aumenta exageradamente.  
+            </p>
+        </li>
+        <li>
+            <p>
+                Baseado no item anterior, quando o usuário inserir um número de proposições relativamente grande, p. ex. 20, é notório que o processamento de geração
+                da tabela demore, uma vez que o número de combinações a ser calculado é absurdamente grande.
+            </p>
+        </li>
+        <li><p>Se o simulador travar por algum motivo, seja p. ex. pela inserção dita no item anterior, deve-se fechar a guia do navegador e reabrir o OVA.</p></li>
+    </ul>
 </section>
 {%endblock%}

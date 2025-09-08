@@ -11,14 +11,14 @@
         <label>Número de proposições (maior ou igual a 1):
         <input type="number"  min="1" name="tabela">
         </label>
-        <button >Gerar</button>
+        <button>Gerar</button>
     </form>
     
     {%if erro == True%}
     <p class="mensagem_erro">Erro! Por favor, insira um número.</p>
     {%elif exibicao_tabela == True%}
     
-    <p>Saída: uma tabela-verdade de {{num_linhas}} linhas {{size(tabela)}} proposição(ões). Note que números diferentes inseridos retornam tabelas distintas.</p>
+    <p>Saída: uma tabela-verdade de {{num_linhas}} linhas e {{size(tabela)}} proposição(ões). Note que números diferentes inseridos retornam tabelas distintas.</p>
 
     <table>
         <thead>
