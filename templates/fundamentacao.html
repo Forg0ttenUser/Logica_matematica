@@ -29,11 +29,54 @@
     <li><p>Valor-verdade, também chamado de valor lógico, é uma propriedade das proposições. Existe dois valores-verdade: verdade (V) e falsidade (F).</p></li>
     <li><p>Princípio da não-contradição é um axioma da lógica que declara que uma proposição não é verdadeira e falsa ao mesmo tempo.</p></li>
     <li><p>Princípio do terceiro excluído, também um axioma, dita que uma proposição ou é verdadeira ou é falsa. Ou seja, não há um terceiro valor-verdade que se possa assumir.</p></li>
-    <li><p>Proposição simples é proposição de uma única afirmação.</p></li>
+    <li><p>Proposição simples é a proposição de uma única afirmação ou é aquela em que não há nenhuma outra como parte integrante de si própria.</p></li>
     <li><p>Proposição composta é a combinação de proposições simples mediante conectivos lógicos.</p></li>
-    <li><p>Conectivo lógico, também chamado de operador lógico, são expressões da linguagem natural expressas em linguagem simbólica, a fim de operar as proposições, como ocorre na artimética.</p></li>
-    
+    <li><p>Conectivo lógico, também chamado de operador lógico, são expressões da linguagem natural expressas em linguagem simbólica, a fim de operar sobre as proposições, como ocorre na artimética.</p></li>
+    <li><p>Argumento é um conjunto finito de proposições, sendo, no mínimo, uma chamada de premissa e, no máximo, uma chamada de conclusão.</p></li>
+
   </ul>
+</article>
+<article>
+  <h2>Tabela-verdade e a sua construção:</h2>
+  <p>
+    Tabela-verdade é um dispositivo prático para a construção de todas as atribuições de valores lógicos de uma proposição composta
+    correspondentes a todas as atribuições de valores-verdade às proposições simples componentes da composta. Ou seja, é um mecanismo
+    que exibe cada possível valor lógico da proposição composta, sendo cada valor desse obtido mediante a atribuição de valores
+    às proposições simples integrantes. Portanto, a tabela-verdade contém cada valor lógico da proposição composta e cada valoração das proposições
+    simples.
+  </p>
+
+  <p>
+    <strong>Para a construir a tabela-verdade</strong>, segue-se o raciocínio:
+  </p>
+  <ol>
+    <li>
+      <p>
+      Sabendo que toda proposição tem dois valores-verdade e dado
+      um número n &ge; 1 de proposições, tem-se que o número de linhas é <strong>2 &times; 2 &times; 2 &times; ... &times; 2, n vezes</strong>, isto é, 2<sup>n</sup>.
+      <strong>Além disso, a linha representa a combinação dos valores lógicos de cada proposição envolvida.</strong>
+      </p>
+    </li>
+    <li>
+      <p>
+        Baseado no número de linhas, a construção da coluna de cada proposição é dada pela expressão <strong>2<sup>n</sup>/2<sup>k</sup></strong>,
+        sendo k o número ordinal da proposição, <strong>de modo que a coluna contenha alternadamente 2<sup>n</sup>/2<sup>k</sup> valores V seguidos
+        de 2<sup>n</sup>/2<sup>k</sup> valores F</strong>.
+      </p>
+    </li>
+  </ol>
+  <p>
+    Por exemplo, dado 3 proposições, tem-se que, pela primeira parte, o número de linhas é 8 e, pela segunda parte, a 1&ordf; proposição tem 4 Vs seguidos de 4 Fs,
+    a 2&ordf; tem 2 Vs seguidos de 2 Fs alternadamente e a 3&ordf; proposição tem 1 V seguido de 1 F alternadamente. Ou seja,
+    <strong>a ideia é distribuir valores V e F alternadamente, na coluna de cada proposição, de modo a completar o número de linhas</strong>.
+  </p>
+  <p>
+    <strong>Note que o raciocínio adotado para a construção da tabela-verdade engloba apenas uma parte (a combinação dos valores lógicos de cada proposição envolvida)
+    do que exibido pela tabela-verdade contextualizada acima, deixando de lado a aplicação dessas combinações para obter os possíveis valores-verdade de uma
+    proposição composta. Isso foi feito, pois o simulador aborda apenas essa parte da tabela, sendo necessário que o próprio usuário aplique cada combinação,
+    a fim de obter cada valor lógico de uma proposição composta. Portanto, o gerador retorna apenas a combinação dos valores lógicos de cada proposição.</strong>
+  </p>
+  
 </article>
 
 {%endblock%}
