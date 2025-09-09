@@ -1,15 +1,39 @@
 {% extends "base.html" %}
 
+{%block css_especifico%}
+ <link rel="stylesheet" href="{{url_for('static', filename='fundamentacao.css')}}">
+{%endblock%}
+
 {%block content%}
-<h2>O que é uma Tabela Verdade?</h2>
+
+<article>
+  <h2>A lógica proposicional:</h2>
   <p>
-    Uma tabela verdade é uma ferramenta usada na lógica proposicional para descrever o comportamento lógico
-    de proposições compostas. Ela mostra todas as possíveis combinações de valores verdadeiros (V) e falsos (F)
-    para as proposições envolvidas.
+    A lógica proposicional, também chamada de cálculo proposicional, é a forma mais simples da lógica simbólica.
+    Baseia-se nos princípios do terceiro excluído e da não-contradição, usando proposições atômicas, parênteses e conectivos como
+    “e”, “ou”, “não” e “se... então”. Apesar de clara e fundamental, não possui quantificadores, o que limita sua capacidade de formalizar a matemática.
+  </p>
+  <p>
+    Além disso, é caracterizada pelo uso de tabelas-verdade e métodos de dedução para verificar a validade de argumentos. Tudo isso é feito com a linguagem
+    proposicional, que se divide em  dois aspectos: semântico e sintático. O semântico consiste na atribuição de valor-verdade as proposições, enquanto o sintático
+    refere-se aos símbolos, regras de formação e de dedução.
   </p>
 
-  <p>
-    Por exemplo, para duas proposições P e Q, a tabela verdade exibe todas as 4 possíveis combinações
-    (VV, VF, FV, FF) e os resultados de operações como "P e Q", "P ou Q", "se P então Q", etc.
-  </p>
+</article>
+
+<article>
+  <h2>Conceitos fundamentais:</h2>
+  <ul>
+
+    <li><p>Proposição é uma oração declarativa. Ou seja, uma enunciado que apresenta sujeito e predicado e assume um, e somente um, dos dois valores-verdade.</p></li>
+    <li><p>Valor-verdade, também chamado de valor lógico, é uma propriedade das proposições. Existe dois valores-verdade: verdade (V) e falsidade (F).</p></li>
+    <li><p>Princípio da não-contradição é um axioma da lógica que declara que uma proposição não é verdadeira e falsa ao mesmo tempo.</p></li>
+    <li><p>Princípio do terceiro excluído, também um axioma, dita que uma proposição ou é verdadeira ou é falsa. Ou seja, não há um terceiro valor-verdade que se possa assumir.</p></li>
+    <li><p>Proposição simples é proposição de uma única afirmação.</p></li>
+    <li><p>Proposição composta é a combinação de proposições simples mediante conectivos lógicos.</p></li>
+    <li><p>Conectivo lógico, também chamado de operador lógico, são expressões da linguagem natural expressas em linguagem simbólica, a fim de operar as proposições, como ocorre na artimética.</p></li>
+    
+  </ul>
+</article>
+
 {%endblock%}
