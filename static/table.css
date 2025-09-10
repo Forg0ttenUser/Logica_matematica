@@ -1,3 +1,10 @@
+.ge_ativa{
+  border: 2px solid #ffaa00;
+  border-radius: 6px;        
+  padding: 4px 8px;          
+  font-weight: bold;         
+}
+
 form {
     background-color: #2a2d45;
     padding: 1.5rem 2rem;

@@ -1,3 +1,10 @@
+.fu_ativa{
+  border: 2px solid #ffaa00;
+  border-radius: 6px;        
+  padding: 4px 8px;          
+  font-weight: bold;         
+}
+
 ul {
   list-style-type: disc;
   padding-left: 20px; 
