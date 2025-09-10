@@ -1,10 +1,14 @@
 # Lógica matemática
 
-## Finalidade:
+## Descrição:
 
-Repositório destinado à criação de programas de lógica matemática, cujo objetivo é instituir a relação ensino-aprendizagem.
+Repositório referente ao trabalho da disciplina de Informática no Ensino de Matemática. o Trabalho consiste na projeção de um OVA (Objeto Virtual de Aprendizagem).
+Nesse sentido, o OVA elaborado se chama "Deulógica", um simulador de tabelas-verdade para o cálculo proposicional, também conhecido como lógica proposicional.
 
-## Composição de programas:
+## Autores:
 
-1. Geração de tabela-verdade de n proposições
-    1. Nome: tabela-verdade.py
+- Guilherme da Silva Mariano
+- Daniel Ferreira Pereira da Silva
+- Lucas das Chagas de Souza
+
+## 
