@@ -11,4 +11,22 @@ Nesse sentido, o OVA elaborado se chama "Deulógica", um simulador de tabelas-ve
 - Daniel Ferreira Pereira da Silva
 - Lucas das Chagas de Souza
 
-## 
+## Como executar a aplicação:
+
+Há duas maneiras de executar este sistema web: clicar no link abaixo escrito "Clique aqui para rodar o site" e baixar e rodar a aplicação no próprio computador.
+
+### 1° forma:
+
+[Clique aqui para rodar o site](https://huggingface.co/spaces/Shzous/Run-Logica_matematica)
+
+**Detalhe**: 
+
+![Topo da página](https://drive.google.com/file/d/1ogricizd9icPYt_jPKWQtL0l6VpTOvFy/view?usp=drive_link)
+
+
+
+## Autores:
+
+- Guilherme da Silva Mariano
+- Daniel Ferreira Pereira da Silva
+- Lucas das Chagas de Souza
