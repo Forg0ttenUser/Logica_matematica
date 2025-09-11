@@ -36,8 +36,8 @@ utilize o 3.12*.
 #### Passo a Passo:
 
 1. No topo desta página, clique no botão verde, como indica a imagem:
-    [Topo da página do github](Imagens_Repo_Git/topo_github.png)
-
+![Topo da página do github](Imagens_Repo_Git/topo_github.png)
+2.
 
 ## Autores:
 
