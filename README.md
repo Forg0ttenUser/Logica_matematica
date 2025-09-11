@@ -22,6 +22,8 @@ Há duas maneiras de executar este sistema web: clicar no link abaixo escrito "C
 **Detalhe**: 
 
 ![Topo da página](Imagens_Repo_Git/pg_top.png)
+Esse topo da página não faz parte de modo algum do OVA. Infelizmente, para hospedar algumas aplicações web em servidores na Internet, geralmente, é necessário pagar mediante assinaturas de planos. No caso desta aplicação, foi feito o uso de um serviço gratuito que impõe certas limitações, sendo uma delas apresentada na imagem acima. Portanto, desconsidere a utilização
+do conteúdo da imagem.  
 
 
 
