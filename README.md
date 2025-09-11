@@ -21,7 +21,7 @@ Há duas maneiras de executar este sistema web: clicar no link abaixo escrito "C
 
 **Detalhe**: 
 
-![Topo da página](https://drive.google.com/file/d/1ogricizd9icPYt_jPKWQtL0l6VpTOvFy/view?usp=sharing)
+![Topo da página](https://drive.google.com/u/2/drive-viewer/AKGpihbW9ImyWA8MLJRsw5DiDCpzcNxrERLhgW6GWnHHcCPScvt_K5HIAUAycTEzIsu9LmYxTD2Y_Q9P7oE9Dig4yw4-2KB-FI9kFx4=s1600-rw-v1)
 
 
 
