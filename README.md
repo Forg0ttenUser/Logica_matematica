@@ -39,20 +39,37 @@ utilize o 3.12*.
 ![Topo da página do github](Imagens_Repo_Git/topo_github.png)
 2. Agora, clique em "Download ZIP" para baixar o projeto no seu computador, conforme indica a imagem:
 ![Topo da página do github](Imagens_Repo_Git/download.png)
-3. Crie uma pasta especial para o mover o arquivo. Após isso, descompacte-o e delete o arquivo baixado de extensão *.zip*. Note que, ao término, da descompactação, uma pasta, cuja nome é *"Logica_matematica-main"*,
-será criada. 
+3. Crie uma pasta especial para o mover o arquivo para tal pasta. Após isso, descompacte-o e delete o arquivo baixado de extensão *.zip*. Note que, ao término da descompactação, uma pasta, cujo nome é *"Logica_matematica-main"*,
+será criada dentro da pasta feita por você.
 
 ##### No Linux:
 
-1. Ainda na pasta especial que você criou, clique sobre ela com o botão direito
+1. Ainda na pasta especial que você criou, clique sobre ela com o botão direito do mouse
 e procure alguma opção com uma expressão semelhante a esta: "Abrir em um terminal". Depois, clique nessa opção. O terminal inicializará, e uma janela  geralmente preta será exibida.
 
-2. Digite ou copie o comando abaixo diretamente no terminal. Será criado um ambiente virtual, a fim de evitar conflitos entre pacotes do sistema.
-```
+2. Digite ou copie o comando abaixo diretamente no terminal e, depois, tecle "Enter". Será criado um ambiente virtual, a fim de evitar conflitos entre pacotes do sistema.
+```bash
 python3 -m venv venv
 ```
+3. Ainda no terminal, ative o ambiente virtual com o seguinte comando e, depois, tecle "Enter":
+```bash
+source venv/bin/activate
+```
+4. No terminal, atualize o gestor de pacotes do python com o seguinte comando e, depois, tecle "Enter":
+```bash
+pip install --upgrade pip
+```
+5. Agora, instale as depedências necessárias com o seguinte comando e, depois, tecle "Enter":
+ ```bash
+pip install -r requirements.txt
+```
+6. Mude para o diretório da aplicação web com o seguinte comando e, depois, tecle "Enter":
 
+```bash
+cd Logica_matematica-main
+```
 
+##### No Windowns:
 
 ## Autores:
 
