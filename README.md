@@ -59,13 +59,13 @@ source venv/bin/activate
 ```bash
 pip install --upgrade pip
 ```
-5. Agora, instale as depedências necessárias com o seguinte comando e, depois, tecle "Enter":
- ```bash
-pip install -r requirements.txt
-```
-6. Mude para o diretório da aplicação web com o seguinte comando e, depois, tecle "Enter":
+5. Mude para o diretório da aplicação web com o seguinte comando e, depois, tecle "Enter":
 ```bash
 cd Logica_matematica-main
+```
+6. Agora, instale as depedências necessárias com o seguinte comando e, depois, tecle "Enter":
+ ```bash
+pip install -r requirements.txt
 ```
 
 ##### No Windows:
@@ -84,14 +84,14 @@ venv\Scripts\activate
 ```bat
 python -m pip install --upgrade pip
 ```
-5. Agora, instale as depedências necessárias com o seguinte comando e, depois, tecle "Enter":
- ```bat
-pip install -r requirements.txt
-```
-6. Mude para o diretório da aplicação web com o seguinte comando e, depois, tecle "Enter":
+5. Mude para o diretório da aplicação web com o seguinte comando e, depois, tecle "Enter":
 
 ```bat
 cd Logica_matematica-main
+```
+6. Agora, instale as depedências necessárias com o seguinte comando e, depois, tecle "Enter":
+ ```bat
+pip install -r requirements.txt
 ```
 
 #### Execução da aplicação web:
