@@ -72,7 +72,7 @@ cd Logica_matematica-main
 ##### No Windows:
 
 1. Ainda na pasta especial que você criou, vá na barra de endereço, digite "cmd" e, depois, tecle "Enter". Uma janela preta será inicializada. Em caso de dúvida, veja este
-[vídeo]([aqui](https://youtube.com/shorts/gtTd6R0ffnE?si=NXnWTGhiXpTodqF5)).
+[vídeo](https://youtube.com/shorts/gtTd6R0ffnE?si=NXnWTGhiXpTodqF5).
 
 2. Digite ou copie o comando abaixo diretamente no terminal e, depois, tecle "Enter". Será criado um ambiente virtual, a fim de evitar conflitos entre pacotes do sistema.
 ```
