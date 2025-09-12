@@ -64,25 +64,58 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 6. Mude para o diretório da aplicação web com o seguinte comando e, depois, tecle "Enter":
-
 ```bash
 cd Logica_matematica-main
 ```
 
 ##### No Windows:
 
-1. Ainda na pasta especial que você criou, vá na barra de endereço, digite "cmd" e, depois, tecle "Enter". Uma janela preta será inicializada. Em caso de dúvida, veja este
-[vídeo](https://youtube.com/shorts/gtTd6R0ffnE?si=NXnWTGhiXpTodqF5).
+1. Ainda na pasta especial que você criou, vá na barra de endereço, digite "cmd" e, depois, tecle "Enter". Uma janela preta será inicializada. Em caso de dúvida, veja este [vídeo](https://youtube.com/shorts/gtTd6R0ffnE?si=NXnWTGhiXpTodqF5).
 
-2. Digite ou copie o comando abaixo diretamente no terminal e, depois, tecle "Enter". Será criado um ambiente virtual, a fim de evitar conflitos entre pacotes do sistema.
-```
+2. Digite ou copie o comando abaixo diretamente no cmd e, depois, tecle "Enter". Será criado um ambiente virtual, a fim de evitar conflitos entre pacotes do sistema.
+```bat
 python -m venv venv
 ```
-
-3. Ainda no terminal, ative o ambiente virtual com o seguinte comando e, depois, tecle "Enter":
+3. Ainda no cmd, ative o ambiente virtual com o seguinte comando e, depois, tecle "Enter":
 ```
 venv\Scripts\activate
 ```
+4. No cmd, atualize o gestor de pacotes do python com o seguinte comando e, depois, tecle "Enter":
+```bat
+python -m pip install --upgrade pip
+```
+5. Agora, instale as depedências necessárias com o seguinte comando e, depois, tecle "Enter":
+ ```bat
+pip install -r requirements.txt
+```
+6. Mude para o diretório da aplicação web com o seguinte comando e, depois, tecle "Enter":
+
+```bat
+cd Logica_matematica-main
+```
+
+#### Execução da aplicação web:
+
+1. No terminal, digite o seguinte comando e tecle "Enter":
+
+##### No Linux:
+```bash
+python3 app.py
+```
+##### No Windows:
+```bat
+python app.py
+```
+2. Vá no seu navegador e digite, na barra de endereço, "http://127.0.0.1:5000". Alternativamente, no terminal, posicione o mouse sobre tal endereço e pressione *CTRL + botão esquerdo do mouse*.
+
+#### Encerrar a aplicação web:
+
+Para finalizar, no terminal, pressione *CTRL+C*. Caso queira executar a aplicação novamente, retorne a seção **Execução da aplicação web** e siga os passos.
+
+
+## Considerações finais: 
+
+Se ocorrer alguma anormalidade, procure por conta própria a solução. Infelizmente, não há como inserir neste documento todos os possíveis erros e as suas respectivas soluções.
 
 ## Autores:
 
