@@ -1,10 +1,8 @@
 # Lógica matemática
 
-## Finalidade:
+## Descrição: 
+Aqui se encontra o protótipo do projeto final.
 
-Repositório destinado à criação de programas de lógica matemática, cujo objetivo é instituir a relação ensino-aprendizagem.
+## Uso: 
 
-## Composição de programas:
-
-1. Geração de tabela-verdade de n proposições
-    1. Nome: tabela-verdade.py
+Siga as mesmas instruções de uso do projeto final.
