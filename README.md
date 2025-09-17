@@ -19,7 +19,7 @@ Há duas maneiras de executar este sistema web: clicar no link abaixo escrito "C
 Esse topo da página não faz parte de modo algum do OVA. Infelizmente, para hospedar algumas aplicações web em servidores na Internet, geralmente, é necessário pagar mediante assinaturas de planos. No caso desta aplicação, foi feito o uso de um serviço gratuito que impõe certas limitações, sendo uma delas apresentada na imagem acima. Portanto, desconsidere a utilização
 do conteúdo da imagem.
 
-Além disso, caso o site esteja com alguma marcação do tipo "sleeping", reinicie o space. Siga as orientações intuitivas presentes na apliacação web.
+Além disso, caso o site esteja com alguma marcação do tipo "sleeping", reinicie o space. Siga as orientações intuitivas presentes na aplicação web.
 
 ### 2ª forma:
 
